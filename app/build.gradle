@@ -12,7 +12,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                cppFlags "-std=c++11 -frtti -fexceptions"
+                // Available argumetns are inside ${SDK}/cmake/.../android.toolchain.cmake file
+                arguments '-DANDROID_PLATFORM=android-14',
+                        '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=gnustl_static'
+                cppFlags "-std=c++11 -fexceptions -frtti"
             }
         }
     }

@@ -1,98 +1,98 @@
 
 {
-	"buildFiles" : [ "/Users/zj-db0145/MyFile/OpenGLES2Test/app/CMakeLists.txt" ],
+	"buildFiles" : [ "F:/GitAndroidProject/OpenGLES2Test/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/Users/zj-db0145/DevelopTools/Andorid/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86 --target clean"
+		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\GitAndroidProject\\OpenGLES2Test\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
-		"native-lib-Release-x86" : 
+		"OpenGLES-Release-x86" : 
 		{
 			"abi" : "x86",
-			"artifactName" : "native-lib",
-			"buildCommand" : "/Users/zj-db0145/DevelopTools/Andorid/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"artifactName" : "OpenGLES",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\GitAndroidProject\\OpenGLES2Test\\app\\.externalNativeBuild\\cmake\\release\\x86 --target OpenGLES",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/gl_utils.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/gl_utils.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLProgram.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLProgram.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/FBOProgram.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/FBOProgram.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLTexture.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLTexture.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/matrix.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/matrix.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLContext.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLContext.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLBaseView.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLBaseView.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLStaticView.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLStaticView.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLScrollView.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLScrollView.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/GLEngine.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/GLEngine.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				},
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/zj-db0145/Library/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zj-db0145/Library/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/zj-db0145/Library/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/zj-db0145/Library/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/jni/opengles_fbo/openglesrgb-jni.cpp",
-					"workingDirectory" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/Android/Android-ndk/android-ndk-r14b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/Android-ndk/android-ndk-r14b/platforms/android-14/arch-x86  -DOpenGLES_EXPORTS -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\Android\\Android-ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/GitAndroidProject/OpenGLES2Test/app/jni/opengles_fbo/openglesrgb-jni.cpp",
+					"workingDirectory" : "F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86"
 				}
 			],
-			"output" : "/Users/zj-db0145/MyFile/OpenGLES2Test/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
-			"toolchain" : "13150481047121791710"
+			"output" : "F:/GitAndroidProject/OpenGLES2Test/app/build/intermediates/cmake/release/obj/x86/libOpenGLES.so",
+			"toolchain" : "2018744233"
 		}
 	},
 	"toolchains" : 
 	{
-		"13150481047121791710" : 
+		"2018744233" : 
 		{
-			"cCompilerExecutable" : "/Users/zj-db0145/Library/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Users/zj-db0145/Library/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+			"cCompilerExecutable" : "D:/Android/Android-ndk/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/Android-ndk/android-ndk-r14b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

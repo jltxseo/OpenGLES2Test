@@ -1,0 +1,25 @@
+# ninja log v5
+42	341	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLTexture.cpp.o	fd0f1d70012843ab
+100	534	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/matrix.cpp.o	331490809ed77cbb
+21	537	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLProgram.cpp.o	3146d5ab7a4b52cc
+0	543	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLStaticView.cpp.o	1bb27f2a6d77ce9b
+87	622	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/FBOProgram.cpp.o	9e4e9f55965fa535
+46	661	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/gl_utils.cpp.o	57afb9fb50d51675
+142	727	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLContext.cpp.o	a92a22620f26436c
+156	765	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLBaseView.cpp.o	246ec3d8bd77fe18
+163	813	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLScrollView.cpp.o	79ac75ebd16f8668
+231	930	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLEngine.cpp.o	dfd18d9761fb8f26
+434	979	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/openglesrgb-jni.cpp.o	2c9c7e943d601157
+980	1209	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libOpenGLES.so	4aad3b83e7b2c30
+30	336	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/matrix.cpp.o	331490809ed77cbb
+83	407	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLTexture.cpp.o	fd0f1d70012843ab
+2	567	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLBaseView.cpp.o	246ec3d8bd77fe18
+77	639	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLProgram.cpp.o	3146d5ab7a4b52cc
+6	651	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLStaticView.cpp.o	1bb27f2a6d77ce9b
+71	653	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/FBOProgram.cpp.o	9e4e9f55965fa535
+54	676	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLContext.cpp.o	a92a22620f26436c
+100	702	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/gl_utils.cpp.o	57afb9fb50d51675
+185	761	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLScrollView.cpp.o	79ac75ebd16f8668
+138	816	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLEngine.cpp.o	dfd18d9761fb8f26
+338	956	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/openglesrgb-jni.cpp.o	2c9c7e943d601157
+957	1185	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libOpenGLES.so	4aad3b83e7b2c30

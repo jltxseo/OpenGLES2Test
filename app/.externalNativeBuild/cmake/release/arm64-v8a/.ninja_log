@@ -1,0 +1,13 @@
+# ninja log v5
+1	359	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLTexture.cpp.o	269f819a8e62fca2
+43	408	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/matrix.cpp.o	cf48113295f7c54f
+21	557	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLProgram.cpp.o	c3ba04a408682fc5
+74	591	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/FBOProgram.cpp.o	8aa7847cc3540fb9
+102	631	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLContext.cpp.o	23f6e757e01b2878
+149	646	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/gl_utils.cpp.o	f21c45223e79f14e
+143	653	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLStaticView.cpp.o	a8b0143f686e7dcc
+186	699	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLBaseView.cpp.o	ba0e95894b3cd8d5
+361	794	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLScrollView.cpp.o	88729da7e190699c
+249	852	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/openglesrgb-jni.cpp.o	4e086e4dafd2cfc8
+297	900	0	CMakeFiles/OpenGLES.dir/jni/opengles_fbo/GLEngine.cpp.o	6e78d2fa4d151ea5
+900	1088	0	../../../../build/intermediates/cmake/release/obj/arm64-v8a/libOpenGLES.so	89ac4685d3e18903
