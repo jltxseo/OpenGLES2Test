@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "F:\\GitAndroidProject\\OpenGLES2Test\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\GitAndroidProject\\OpenGLES2Test\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target clean"
+  ],
+  "libraries": {
+    "OpenGLES-Debug-mips64": {
+      "artifactName": "OpenGLES",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\GitAndroidProject\\OpenGLES2Test\\app\\.externalNativeBuild\\cmake\\debug\\mips64 --target OpenGLES",
+      "abi": "mips64",
+      "output": "F:\\GitAndroidProject\\OpenGLES2Test\\app\\build\\intermediates\\cmake\\debug\\obj\\mips64\\libOpenGLES.so"
+    }
+  }
+}
