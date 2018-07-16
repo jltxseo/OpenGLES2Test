@@ -1,3 +1,0 @@
-F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/OpenGLES.dir
-F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
-F:/GitAndroidProject/OpenGLES2Test/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

@@ -30,6 +30,7 @@ Icon
 # Gradle files
 .gradle/
 build/
+.externalNativeBuild/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -72,14 +73,14 @@ tmp/
 # PDT-specific
 .buildpath
 
-# sbteclipse plugin 
+# sbteclipse plugin
 .target
 
 # TeXlipse plugin
 .texlipse
 
 ########################################
-# Covers JetBrains IDEs: IntelliJ, 
+# Covers JetBrains IDEs: IntelliJ,
 # RubyMine, PhpStorm, AppCode, PyCharm
 ########################################
 ## Directory-based project format
